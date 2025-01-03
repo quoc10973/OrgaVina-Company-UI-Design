@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+
+# Optional npm cache directory
+.npm/
+
+# Temporary files
+*.tmp
+*.temp
+
+# ESLint cache
+.eslintcache
+
+# Jest
+coverage/
+
+# Stylelint
+.stylelintcache
+
+# System files
+Thumbs.db
+.AppleDouble
