@@ -1,8 +1,12 @@
-import React from 'react'
+import HomePage from "./pages/HomePage"
 
-const App = () => {
+function App() {
   return (
-    <div>App</div>
+    <>
+      <div>
+        <HomePage />
+      </div>
+    </>
   )
 }
 
