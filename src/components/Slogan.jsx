@@ -7,8 +7,8 @@ const Slogan = () => {
             <div className='flex items-center space-x-4'>
                 <img className='w-15 h-10 ml-4' src={logo} alt="logo" />
                 <div>
-                    <h1 className='text-black font-quicksand text-2xl'>Công ty TNHH ABC</h1>
-                    <p className='text-black font-quicksand text-sm'>Chuyên cung cấp các sản phẩm xuất nhập khẩu</p>
+                    <h1 className='text-black font-quicksand text-2xl'>Công ty TNHH OrgaVina</h1>
+                    <p className='text-black font-quicksand text-sm'>Công ty chuyên nhập khẩu và phân phối các sản phẩm thực phẩm hữu cơ chất lượng cao</p>
                 </div>
             </div>
             <div className='flex items-center mr-10'>
