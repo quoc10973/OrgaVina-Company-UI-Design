@@ -41,8 +41,10 @@ const Description = () => {
 
     return (
         <div className="m-0 p-0 font-quicksand">
-            <Banner />
-            <div className="p-4 sm:p-8 bg-slate-200 flex justify-between space-x-3">
+            <div className="hidden md:block">
+                <Banner />
+            </div>
+            <div className="p-4 sm:p-8 bg-slate-200 flex flex-col md:flex-row justify-between space-x-0 md:space-x-3">
                 <style>
                     {`
                         .fade-in {
@@ -57,7 +59,7 @@ const Description = () => {
                         }
                     `}
                 </style>
-                <div ref={addToRefs} className="mt-8 text-center flex flex-col items-center text-justify border border-gray-300 rounded-lg p-4 sm:p-8">
+                <div ref={addToRefs} className="mt-8 text-center flex flex-col items-center text-justify border border-gray-300 rounded-lg p-4 sm:p-8 w-full md:w-1/2">
                     <h2 className="text-2xl sm:text-3xl font-bold text-blue-900">Chào mừng đến với OrgaVina </h2>
                     <p className="mt-4 text-base sm:text-lg text-gray-700">
                         <b>Giới thiệu chung về công ty:</b> OrgaVina là công ty chuyên nhập khẩu và phân phối các sản phẩm thực phẩm hữu cơ chất lượng cao, đến từ những vùng đất trù phú trên thế giới.
@@ -77,7 +79,7 @@ const Description = () => {
                         </Link>
                     </div>
                 </div>
-                <div ref={addToRefs} className="mt-8 text-center flex flex-col items-center border text-justify border-gray-300 rounded-lg p-4 sm:p-8">
+                <div ref={addToRefs} className="mt-8 text-center flex flex-col items-center border text-justify border-gray-300 rounded-lg p-4 sm:p-8 w-full md:w-1/2">
                     <h2 className="text-2xl sm:text-3xl font-bold text-blue-900">Tại sao nên chọn OrgaVina ?</h2>
                     <p className="mt-4 text-base sm:text-lg text-gray-700">
                         <b>Cam kết chất lượng:</b> Chúng tôi cam kết mang đến sản phẩm hữu cơ tốt nhất, đảm bảo an toàn sức khỏe và phù hợp với tiêu chuẩn quốc tế. Chúng tôi hiểu rõ nhu cầu của khách hàng và luôn cung cấp những giải pháp tốt nhất.
@@ -97,8 +99,8 @@ const Description = () => {
                     </div>
                 </div>
             </div>
-            <div className="p-4 sm:p-8 bg-slate-200 flex justify-between space-x-3">
-                <div ref={addToRefs} className="mt-8 text-center flex flex-col items-center text-justify border border-gray-300 rounded-lg p-4 sm:p-8">
+            <div className="p-4 sm:p-8 bg-slate-200 flex flex-col md:flex-row justify-between space-x-0 md:space-x-3">
+                <div ref={addToRefs} className="mt-8 text-center flex flex-col items-center text-justify border border-gray-300 rounded-lg p-4 sm:p-8 w-full md:w-1/2">
                     <h2 className="text-2xl sm:text-3xl font-bold text-blue-900">Sản phẩm hữu cơ chất lượng cao</h2>
                     <p className="mt-4 text-base sm:text-lg text-gray-700">
                         Tại OrgaVina, chúng tôi cung cấp các sản phẩm thực phẩm hữu cơ chất lượng cao, đạt chuẩn quốc tế. Chúng tôi nhập khẩu trực tiếp từ các trang trại hữu cơ uy tín ở các khu vực nông thôn với khí hậu và đất đai tốt, đảm bảo sản phẩm luôn tươi mới và an toàn. Chúng tôi luôn cam kết mang đến cho khách hàng những sản phẩm hữu cơ tốt nhất, từ rau củ quả cho đến các sản phẩm chế biến sẵn.
@@ -119,7 +121,7 @@ const Description = () => {
                         </Link>
                     </div>
                 </div>
-                <div ref={addToRefs} className="mt-8 text-center flex flex-col items-center border text-justify border-gray-300 rounded-lg p-4 sm:p-8">
+                <div ref={addToRefs} className="mt-8 text-center flex flex-col items-center border text-justify border-gray-300 rounded-lg p-4 sm:p-8 w-full md:w-1/2">
                     <h2 className="text-2xl sm:text-3xl font-bold text-blue-900">Cam kết bảo vệ môi trường cùng OrgaVina</h2>
                     <p className="mt-4 text-base sm:text-lg text-gray-700">
                         OrgaVina không chỉ mang đến sản phẩm hữu cơ chất lượng mà còn cam kết bảo vệ môi trường trong suốt quá trình sản xuất và vận chuyển. Chúng tôi làm việc với các đối tác có cùng tầm nhìn, nhằm giảm thiểu tác động xấu đến môi trường. Từ việc sử dụng bao bì sinh học phân hủy được cho đến việc sử dụng các phương pháp sản xuất bền vững, OrgaVina luôn nỗ lực vì một hành tinh xanh và khỏe mạnh.
