@@ -89,42 +89,55 @@ const Description = () => {
                         <b>Mạng lưới đối tác đa dạng:</b> Với mạng lưới nhà cung cấp đáng tin cậy trên toàn cầu, chúng tôi mang đến danh mục sản phẩm phong phú, đáp ứng mọi nhu cầu của bạn.
                     </p>
                     <div className="mt-8">
-                        <button className="px-4 py-2 sm:px-6 sm:py-2 bg-blue-900 text-white rounded-full hover:bg-blue-700">
-                            Liên hệ ngay
-                        </button>
+                        <Link to="/contact">
+                            <button className="px-4 py-2 sm:px-6 sm:py-2 bg-blue-900 text-white rounded-full hover:bg-blue-700">
+                                Liên hệ ngay
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
             <div className="p-4 sm:p-8 bg-slate-200 flex justify-between space-x-3">
                 <div ref={addToRefs} className="mt-8 text-center flex flex-col items-center text-justify border border-gray-300 rounded-lg p-4 sm:p-8">
-                    <h2 className="text-2xl sm:text-3xl font-bold text-blue-900">Welcome to ABC Import-Export Company</h2>
+                    <h2 className="text-2xl sm:text-3xl font-bold text-blue-900">Sản phẩm hữu cơ chất lượng cao</h2>
                     <p className="mt-4 text-base sm:text-lg text-gray-700">
-                        At ABC Import-Export Company, we specialize in providing top-quality technology products from around the world. Our mission is to bridge the gap between manufacturers and consumers by offering a wide range of products at competitive prices.
+                        Tại OrgaVina, chúng tôi cung cấp các sản phẩm thực phẩm hữu cơ chất lượng cao, đạt chuẩn quốc tế. Chúng tôi nhập khẩu trực tiếp từ các trang trại hữu cơ uy tín ở các khu vực nông thôn với khí hậu và đất đai tốt, đảm bảo sản phẩm luôn tươi mới và an toàn. Chúng tôi luôn cam kết mang đến cho khách hàng những sản phẩm hữu cơ tốt nhất, từ rau củ quả cho đến các sản phẩm chế biến sẵn.
                     </p>
                     <p className="mt-4 text-base sm:text-lg text-gray-700">
-                        With years of experience in the industry, we have established strong relationships with suppliers and customers alike. Our dedicated team works tirelessly to ensure that every transaction is smooth and efficient, from order placement to delivery.
+                        <b>Lý do nên chọn OrgaVina cho sản phẩm hữu cơ:</b>
                     </p>
-                    <p className="mt-4 text-base sm:text-lg text-gray-700">
-                        Whether you are looking for the latest gadgets, electronics, or other technology products, ABC Import-Export Company is your trusted partner. Join us on our journey to bring the best products to your doorstep.
-                    </p>
+                    <ul className="mt-4 text-base sm:text-lg text-gray-700 list-disc pl-6">
+                        <li>Chất lượng vượt trội: Mỗi sản phẩm đều trải qua quá trình kiểm tra nghiêm ngặt từ khâu sản xuất đến khi nhập khẩu.</li>
+                        <li>Đảm bảo an toàn sức khỏe: Sản phẩm của chúng tôi không chứa hóa chất độc hại, giúp bảo vệ sức khỏe của bạn và gia đình.</li>
+                        <li>Nguồn gốc rõ ràng: Chúng tôi hợp tác với các nhà cung cấp uy tín trên toàn cầu để đảm bảo sản phẩm luôn đạt chất lượng cao nhất.</li>
+                    </ul>
                     <div className="mt-8">
-                        <button className="px-4 py-2 sm:px-6 sm:py-2 bg-blue-900 text-white rounded-full hover:bg-blue-700">
-                            Learn More
-                        </button>
+                        <Link to="/about">
+                            <button className="px-4 py-2 sm:px-6 sm:py-2 bg-blue-900 text-white rounded-full hover:bg-blue-700">
+                                Xem các sản phẩm hữu cơ
+                            </button>
+                        </Link>
                     </div>
                 </div>
                 <div ref={addToRefs} className="mt-8 text-center flex flex-col items-center border text-justify border-gray-300 rounded-lg p-4 sm:p-8">
-                    <h2 className="text-2xl sm:text-3xl font-bold text-blue-900">Why Choose Us?</h2>
+                    <h2 className="text-2xl sm:text-3xl font-bold text-blue-900">Cam kết bảo vệ môi trường cùng OrgaVina</h2>
                     <p className="mt-4 text-base sm:text-lg text-gray-700">
-                        We pride ourselves on our commitment to quality and customer satisfaction. Our team is dedicated to providing exceptional service and support to ensure that your experience with us is seamless and enjoyable.
+                        OrgaVina không chỉ mang đến sản phẩm hữu cơ chất lượng mà còn cam kết bảo vệ môi trường trong suốt quá trình sản xuất và vận chuyển. Chúng tôi làm việc với các đối tác có cùng tầm nhìn, nhằm giảm thiểu tác động xấu đến môi trường. Từ việc sử dụng bao bì sinh học phân hủy được cho đến việc sử dụng các phương pháp sản xuất bền vững, OrgaVina luôn nỗ lực vì một hành tinh xanh và khỏe mạnh.
                     </p>
                     <p className="mt-4 text-base sm:text-lg text-gray-700">
-                        Our extensive network of suppliers allows us to offer a diverse range of products, ensuring that you have access to the latest and greatest in technology. We continuously strive to improve our offerings and stay ahead of industry trends.
+                        <b>Các cam kết của chúng tôi:</b>
                     </p>
+                    <ul className="mt-4 text-base sm:text-lg text-gray-700 list-disc pl-6">
+                        <li>Bao bì thân thiện với môi trường: Chúng tôi sử dụng bao bì có thể tái chế hoặc phân hủy tự nhiên, hạn chế sử dụng nhựa.</li>
+                        <li>Sản xuất bền vững: Các nhà cung cấp của chúng tôi áp dụng các phương pháp sản xuất thân thiện với môi trường, giảm thiểu chất thải.</li>
+                        <li>Hỗ trợ cộng đồng: Chúng tôi hợp tác với các tổ chức địa phương để hỗ trợ các sáng kiến bảo vệ môi trường và phát triển bền vững.</li>
+                    </ul>
                     <div className="mt-8">
-                        <button className="px-4 py-2 sm:px-6 sm:py-2 bg-blue-900 text-white rounded-full hover:bg-blue-700">
-                            Contact Us
-                        </button>
+                        <a href="https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Luat-so-72-2020-QH14-Bao-ve-moi-truong-2020-431147.aspx">
+                            <button className="px-4 py-2 sm:px-6 sm:py-2 bg-blue-900 text-white rounded-full hover:bg-blue-700">
+                                Khám phá cam kết bảo vệ môi trường
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
