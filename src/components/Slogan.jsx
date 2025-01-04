@@ -5,7 +5,7 @@ const Slogan = () => {
     return (
         <div className='flex bg-slate-200 justify-around space-x-10 p-4 w-full h-20'>
             <div className='flex items-center space-x-4'>
-                <img className='w-15 h-10 ml-4' src={logo} alt="logo" />
+                <img className='w-24 h-20 ml-4' src={logo} alt="logo" /> {/* Đã thay đổi kích thước logo */}
                 <div>
                     <h1 className='text-black font-quicksand text-2xl'>Công ty TNHH OrgaVina</h1>
                     <p className='text-black font-quicksand text-sm'>Công ty chuyên nhập khẩu và phân phối các sản phẩm thực phẩm hữu cơ chất lượng cao</p>
