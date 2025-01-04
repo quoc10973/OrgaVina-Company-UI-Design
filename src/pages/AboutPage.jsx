@@ -11,6 +11,9 @@ const AboutPage = () => {
             setIsVisible(true);
         }, 100);
 
+        // Cuộn lên đầu trang khi vào trang
+        window.scrollTo(0, 0);
+
         if (contentRef.current) {
             contentRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
