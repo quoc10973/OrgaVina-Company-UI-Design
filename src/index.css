@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap&subset=vietnamese');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300..700&display=swap&subset=vietnamese');
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
