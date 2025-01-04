@@ -88,7 +88,7 @@ const Footer = () => {
                 </div>
 
                 <div className="mt-10 border-t border-gray-700 pt-4 text-center text-gray-400">
-                    © {new Date().getFullYear()} Export & Import Company. Tất cả các quyền được bảo lưu.
+                    © {new Date().getFullYear()} -  Bản quyền thuộc về OrgaVina Company .
                 </div>
             </div>
         </footer>
