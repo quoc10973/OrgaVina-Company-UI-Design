@@ -3,7 +3,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css'; // Import Font Awesome
 
 const Footer = () => {
     return (
-        <footer className="bg-slate-800 text-white font-quicksand">
+        <footer className="bg-slate-900 text-white font-quicksand">
             <div className="container mx-auto px-6 py-10">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {/* Cột 1: Về Chúng Tôi */}

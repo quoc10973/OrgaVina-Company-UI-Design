@@ -64,7 +64,7 @@ const ContactPage = () => {
                                 value={formData.name}
                                 onChange={handleChange}
                                 required
-                                className="shadow-md appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                                className="shadow-md appearance-none border rounded-lg w-full py-3 px-4 text-brown-800 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                             />
                         </div>
 
@@ -79,7 +79,7 @@ const ContactPage = () => {
                                 value={formData.email}
                                 onChange={handleChange}
                                 required
-                                className="shadow-md appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                                className="shadow-md appearance-none border rounded-lg w-full py-3 px-4 text-brown-800 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                             />
                         </div>
 
@@ -93,7 +93,7 @@ const ContactPage = () => {
                                 name="phone"
                                 value={formData.phone}
                                 onChange={handleChange}
-                                className="shadow-md appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                                className="shadow-md appearance-none border rounded-lg w-full py-3 px-4 text-brown-800 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                             />
                         </div>
 
@@ -107,7 +107,7 @@ const ContactPage = () => {
                                 name="subject"
                                 value={formData.subject}
                                 onChange={handleChange}
-                                className="shadow-md appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                                className="shadow-md appearance-none border rounded-lg w-full py-3 px-4 text-brown-800 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                             />
                         </div>
 
@@ -122,7 +122,7 @@ const ContactPage = () => {
                                 onChange={handleChange}
                                 required
                                 rows="6"
-                                className="shadow-md appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                                className="shadow-md appearance-none border rounded-lg w-full py-3 px-4 text-brown-800 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                             />
                         </div>
 
@@ -135,14 +135,14 @@ const ContactPage = () => {
                                 id="attachment"
                                 name="attachment"
                                 onChange={handleFileChange}
-                                className="shadow-md appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                                className="shadow-md appearance-none border rounded-lg w-full py-3 px-4 text-brown-800 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                             />
                         </div>
 
                         <div className="flex items-center justify-center">
                             <button
                                 type="submit"
-                                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                className=" bg-slate-600 hover:bg-slate-900 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500"
                             >
                                 Gửi Tin Nhắn
                             </button>
@@ -152,19 +152,19 @@ const ContactPage = () => {
 
                 <div className="w-full lg:w-1/3 bg-white p-8 rounded-lg shadow-lg space-y-6">
                     <h2 className="text-lg lg:text-xl font-semibold text-gray-800">Thông Tin Liên Hệ</h2>
-                    <p className="text-gray-700 text-sm lg:text-base">Nếu bạn có bất kỳ câu hỏi nào hoặc cần thêm thông tin, vui lòng liên hệ với chúng tôi!</p>
+                    <p className="text-brown-800 text-sm lg:text-base">Nếu bạn có bất kỳ câu hỏi nào hoặc cần thêm thông tin, vui lòng liên hệ với chúng tôi!</p>
                     <div className="space-y-4">
                         <div>
                             <strong className="text-gray-800 text-sm lg:text-base">Email:</strong>
-                            <p className="text-gray-700 text-sm lg:text-base">orgavina@company.com</p>
+                            <p className="text-brown-800 text-sm lg:text-base">orgavina@company.com</p>
                         </div>
                         <div>
                             <strong className="text-gray-800 text-sm lg:text-base">Số Điện Thoại:</strong>
-                            <p className="text-gray-700 text-sm lg:text-base">+1 (234) 567-890</p>
+                            <p className="text-brown-800 text-sm lg:text-base">+1 (234) 567-890</p>
                         </div>
                         <div>
                             <strong className="text-gray-800 text-sm lg:text-base">Địa Chỉ:</strong>
-                            <p className="text-gray-700 text-sm lg:text-base">123 Organic Ave, Thành phố, Quốc gia</p>
+                            <p className="text-brown-800 text-sm lg:text-base">Số 5, Nguyễn Thị Minh Khai, Quận 1, thành phố Hồ Chí Minh, Việt Nam</p>
                         </div>
                     </div>
                     <div>
@@ -172,7 +172,7 @@ const ContactPage = () => {
                         <div className="flex space-x-4">
                             <a href="#" className="text-blue-600">Facebook</a>
                             <a href="#" className="text-blue-400">Twitter</a>
-                            <a href="#" className="text-gray-700">Instagram</a>
+                            <a href="#" className="text-brown-800">Instagram</a>
                         </div>
                     </div>
                 </div>

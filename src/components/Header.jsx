@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div>
             <Slogan />
-            <div className="bg-blue-950 p-4 flex flex-col md:flex-row justify-around space-x-0 md:space-x-40">
+            <div className="bg-gray-900 p-4 flex flex-col md:flex-row justify-around space-x-0 md:space-x-40">
                 <nav>
                     <ul className="flex flex-col md:flex-row space-x-0 md:space-x-10 font-thin font-quicksand">
                         <li className="flex items-center space-x-1">
