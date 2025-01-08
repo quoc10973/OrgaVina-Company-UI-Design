@@ -8,7 +8,7 @@ const Slogan = () => {
                 <img className='w-40 h-20 ml-4' src={logo} alt="logo" /> {/* Đã thay đổi kích thước logo */}
                 <div>
                     <h1 className='text-black font-quicksand text-xl md:text-2xl'>Công ty TNHH OrgaVina</h1>
-                    <p className='text-black font-quicksand text-sm'>Công ty chuyên xuất khẩu và phân phối các sản phẩm thực phẩm hữu cơ chất lượng cao</p>
+                    <p className='text-black font-quicksand text-sm'>Công ty chuyênchuyên xuất khẩu phân phối cà phê thô</p>
                 </div>
             </div>
             <div className='hidden md:flex items-center mt-4 md:mt-0 mr-10'>
